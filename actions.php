@@ -69,6 +69,7 @@ function getClass($file)
 			$class = str_replace(' ', '', $class);
 			$class = str_replace("\n", '', $class);
 			$class = str_replace("\r", '', $class);
+			$class = str_replace("Controller", '', $class);
 			break;
 		}
 	}
